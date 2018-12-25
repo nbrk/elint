@@ -50,12 +50,11 @@ structures:
 3. Instance `instance IntelDB PersonIntel` which has the following methods for
    getting initially unknown database, and for aging the whole intelligence
    model one step (aging time is abstracted to `Integer`):
-
    ``` haskell
-  class IntelDB w where
-  mystery :: w
-  age :: w -> w
-  ```
+   class IntelDB w where
+   mystery :: w
+   age :: w -> w
+   ```
 
 From now on, the user is able to use various library functions to add
 (incorporate) or delete (obsolete) `Intel PersonIntel a` reports from the
@@ -97,13 +96,10 @@ data Confidence
 
 instance Bounded Confidence where
 -- ...
-
 instance Enum Confidence where
 -- ...
-
 instance Eq Confidence where
 -- ...
-
 instance Ord Confidence where
 -- ...
 ```
