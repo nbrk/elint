@@ -1,7 +1,7 @@
 name:                elint
 version:             0.1.0.0
 synopsis:            Type-safe modelling of intelligence gathering
-description:         Library which models information intelligence in a
+description:         Library that models information intelligence in a
                      type-safe way: incomplete intel, certainty levels and
                      probabilities, aging (degrading) of information, intel
                      report comparison, etc.
